@@ -23,6 +23,11 @@
 # inherit from common jf
 include device/samsung/jf-common/BoardConfigCommon.mk
 
+# Optimizations
+ROM_OPTIS := true
+BOARD_GLOBAL_CFLAGS := -mvectorize-with-neon-quad
+BOARD_GLOBAL_CPPFLAGS := -mvectorize-with-neon-quad
+
 # inherit from the proprietary version
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
