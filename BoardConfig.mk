@@ -33,4 +33,4 @@ BOARD_GLOBAL_CPPFLAGS := -mvectorize-with-neon-quad
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltetmo,jflte
-
+ROM_OPTIS := true
