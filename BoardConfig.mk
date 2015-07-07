@@ -25,13 +25,11 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 
 KERNEL_TOOLCHAIN := /home/tjstevemx/radium/prebuilts/gcc/linux-x86/arm/arm-eabi-6.0/bin
 
-# Optimizations
-BOARD_GLOBAL_CFLAGS := -mvectorize-with-neon-quad
-BOARD_GLOBAL_CPPFLAGS := -mvectorize-with-neon-quad
+
 
 # inherit from the proprietary version
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltetmo,jflte
-ROM_OPTIS := true
+
