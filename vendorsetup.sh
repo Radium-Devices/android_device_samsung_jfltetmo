@@ -1,2 +1,2 @@
-add_lunch_combo flex_jfltetmo-eng
+add_lunch_combo radium_jfltetmo-userdebug
 
